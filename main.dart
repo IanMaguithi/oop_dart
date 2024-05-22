@@ -9,8 +9,8 @@ abstract class Printable {
 
 // Step 2 create a base class
 class Person implements Printable {
-  late String name;
-  late int age;
+  String name;
+  int age;
 
   Person(this.name, this.age);
 
